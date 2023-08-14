@@ -1,0 +1,100 @@
+.body {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.center {
+    text-align: center;
+}
+
+textarea {
+    width: 100vh;
+    height: 30vh;
+    padding: 3px;
+}
+
+.createform {
+    text-align: center;
+}
+
+.post {
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: #e3f2fd;;
+}
+
+.posts {
+    width: 50vh;
+    margin: auto;
+}
+
+.left {
+    float: left;
+    text-align: left;
+    
+}
+
+.right {
+    text-align: right;
+}
+
+a b {
+    font-size: 30px;
+    color: black;
+}
+
+a b :hover {
+    text-decoration: underline;
+}
+
+.content {
+    font-size: 20px;
+    word-break: break-word;
+}
+
+.timestamp {
+    font-size: 14px;
+    color: rgb(148, 145, 145);
+}
+
+hr {
+    background-color: rgb(34, 33, 33);
+}
+
+.profile_name {
+    font-size: 40px;
+    color: black;
+
+}
+
+
+li a {
+    color:black;
+}
+
+li a :hover {
+    text-decoration: underline;
+}
+
+.like {
+    align-items: center;
+    align-content: center;
+}
+
+.unlikeable {
+    align-items: center;
+    align-content: center;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.edit_box {
+    width: 45vh;
+    height: 10vh;
+}
+

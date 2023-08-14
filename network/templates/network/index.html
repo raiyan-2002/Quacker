@@ -1,0 +1,166 @@
+{% extends "network/layout.html" %}
+
+{% block body %}
+
+{% if profile %}
+
+<div id="{{profile.user_id}}" class="center">
+    <div class="profile_name">
+        <b>{{profile}}</b>
+    </div>
+    <div class="followers_or_following">
+        <div id="followers">
+            Followers: {{follower_count}}
+        </div>
+        <div id="following">
+            Following: {{following_count}}
+        </div>
+    </div>
+    {% if user.is_authenticated %}
+        {% if request.user != profile %}
+        <br>
+            {% if not is_following %}
+                <button id="follow" class="btn btn-primary">Follow</button>
+            {% else %}
+                <button id="follow" class="btn btn-danger">Unfollow</button>
+            {% endif %}
+        {% endif %}
+    {% endif %}
+</div>
+<hr>
+
+{% endif %}
+
+{% if following %}
+
+    <div class="profile_name center">
+        <b>Following</b>
+    </div>
+    <hr>
+
+{% endif %}
+
+{% if not profile %}
+    {% if not following %}
+        <div class="profile_name center">
+            <b>All Quacks</b>
+        </div>
+        <hr>
+    {% endif %}
+{% endif %}
+ <div class="posts">
+
+    {% for post in posts %}
+        <div class="post" id="{{post.post_id}}">
+            <div class="creator">
+                <a href="{% url 'user' post.creator.user_id%}"><b>{{post.creator}}</b></a>
+            </div>
+            <div class="content">
+                {{post.content}}
+            </div>
+            <div class="timestamp">
+                {{post.timestamp}}
+            </div>
+
+            <br>
+
+            {% if user.is_authenticated %}
+                {% if request.user == post.creator %}
+                    {% if post in liked_posts %}
+                        <div class="left">
+                            <button class="like btn btn-danger">
+                                ♥️ {{post.likes}}
+                            </button>
+                        </div>
+                    {% else %}
+                        <div class="left">
+                            <button class="like btn btn-light">
+                                ♥️ {{post.likes}}
+                            </button>
+                        </div>
+                    {% endif %}
+
+                    <div class="right">
+                        <button class="edit btn btn-primary">
+                            Edit
+                        </button>
+                    </div>
+                {% else %}
+                    {% if post in liked_posts %}
+                        <div>
+                            <button class="like btn btn-danger">
+                                ♥️ {{post.likes}}
+                            </button>
+                        </div>
+                    {% else %}
+                        <div>
+                            <button class="like btn btn-light">
+                                ♥️ {{post.likes}}
+                            </button>
+                        </div>
+                    {% endif %}
+
+                {% endif %}
+            {% else %}
+
+                <div>
+                    <button class="unlikeable btn btn-light">
+                        ♥️ {{post.likes}}
+                    </button>
+                </div>
+
+            {% endif %}
+
+        </div>
+
+        <div class="post hidden">
+            <div class="creator">
+                <a href="{% url 'user' post.creator.user_id%}"><b>{{post.creator}}</b></a>
+            </div>
+            <textarea class="edit_box">{{post.content}}</textarea>
+            <button class="submit_edit btn btn-primary">Save</button>
+        </div>
+        <br>
+
+    {% empty %}
+        
+        <h2 class="center">No quacks yet!</h2>
+       
+    {% endfor %}
+</div>
+
+<br>
+<nav>
+    <ul class="pagination justify-content-center" style="color:black;">
+        {% if posts.has_previous %}
+            <li class="page-item"><a class="page-link" href="?page=1">&laquo First</a></li>
+            <li class="page-item"><a class="page-link" href="?page={{posts.previous_page_number }}">Previous</a></li>
+        {% else %}
+            <li class="page-item disabled"><a class="page-link">&laquo First</a></li>
+            <li class="page-item disabled"><a class="page-link">Previous</a></li>
+
+        {% endif %}
+
+        {% with ''|center:posts.paginator.num_pages as range %}
+        {% for i in range %}
+            {% if forloop.counter != posts.number %} 
+                <li class="page-item"><a class="page-link" href="?page={{forloop.counter}}">{{forloop.counter}}</a></li>
+            {% else %}
+                <li class="page-item active"><a class="page-link" href="?page={{forloop.counter}}">{{forloop.counter}}</a></li>
+            {% endif %}
+        {% endfor %}
+        {% endwith %}
+
+        {% if posts.has_next %}
+            <li class="page-item"><a class="page-link" href="?page={{posts.next_page_number}}">Next</a></li>
+            <li class="page-item"><a class="page-link" href="?page={{posts.paginator.num_pages}}"> Last &raquo</a></li>
+        {% else %}
+            <li class="page-item disabled"><a class="page-link" >Next</a></li>
+            <li class="page-item disabled"><a class="page-link" > Last &raquo</a></li>
+        {% endif %}
+    </ul>
+</nav>   
+<br>
+
+
+{% endblock %}

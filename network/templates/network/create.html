@@ -1,0 +1,22 @@
+{% extends "network/layout.html" %}
+
+{% block body %}
+
+    <h2>New Quack</h2>
+
+    {% if message %}
+        <div class="alert alert-danger" role="alert">
+            {{message}}
+        </div>
+    {% endif %}
+
+    <form action="{% url 'create' %}" method="post">
+        {% csrf_token %}
+        <div class="form-group create_form">
+            <textarea name="content" placeholder = "What's on your mind - 🪿 "></textarea>
+            <br>
+            <input class="btn btn-primary" type="submit" value="Create">
+        </div>
+    </form>
+
+{% endblock %}

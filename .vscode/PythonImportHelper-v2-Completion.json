@@ -1,0 +1,783 @@
+[
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.validators",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.validators",
+        "description": "django.contrib.auth.validators",
+        "detail": "django.contrib.auth.validators",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "IntegrityError",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponseRedirect",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "Paginator",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "network.migrations.0001_initial",
+        "description": "network.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        (\"auth\", \"0012_alter_user_first_name_max_length\"),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name=\"User\",\n            fields=[\n                (\"password\", models.CharField(max_length=128, verbose_name=\"password\")),",
+        "detail": "network.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "network.migrations.0002_alter_post_timestamp",
+        "description": "network.migrations.0002_alter_post_timestamp",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"network\", \"0001_initial\"),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name=\"post\",\n            name=\"timestamp\",\n            field=models.DateTimeField(\n                default=datetime.datetime(",
+        "detail": "network.migrations.0002_alter_post_timestamp",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "network.migrations.0003_post_likers_alter_post_timestamp",
+        "description": "network.migrations.0003_post_likers_alter_post_timestamp",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"network\", \"0002_alter_post_timestamp\"),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name=\"post\",\n            name=\"likers\",\n            field=models.ManyToManyField(\n                blank=True,",
+        "detail": "network.migrations.0003_post_likers_alter_post_timestamp",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "network.migrations.0004_alter_post_timestamp",
+        "description": "network.migrations.0004_alter_post_timestamp",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"network\", \"0003_post_likers_alter_post_timestamp\"),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name=\"post\",\n            name=\"timestamp\",\n            field=models.DateTimeField(\n                default=datetime.datetime(",
+        "detail": "network.migrations.0004_alter_post_timestamp",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "network.migrations.0005_user_posts_alter_post_timestamp",
+        "description": "network.migrations.0005_user_posts_alter_post_timestamp",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"network\", \"0004_alter_post_timestamp\"),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name=\"user\",\n            name=\"posts\",\n            field=models.ManyToManyField(\n                blank=True, related_name=\"liked_posts\", to=\"network.post\"",
+        "detail": "network.migrations.0005_user_posts_alter_post_timestamp",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "network.migrations.0006_remove_post_likers_alter_post_timestamp",
+        "description": "network.migrations.0006_remove_post_likers_alter_post_timestamp",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"network\", \"0005_user_posts_alter_post_timestamp\"),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name=\"post\",\n            name=\"likers\",\n        ),\n        migrations.AlterField(",
+        "detail": "network.migrations.0006_remove_post_likers_alter_post_timestamp",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "network.migrations.0007_alter_post_timestamp",
+        "description": "network.migrations.0007_alter_post_timestamp",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"network\", \"0006_remove_post_likers_alter_post_timestamp\"),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name=\"post\",\n            name=\"timestamp\",\n            field=models.DateTimeField(auto_now_add=True),\n        ),",
+        "detail": "network.migrations.0007_alter_post_timestamp",
+        "documentation": {}
+    },
+    {
+        "label": "FollowerAdmin",
+        "kind": 6,
+        "importPath": "network.admin",
+        "description": "network.admin",
+        "peekOfCode": "class FollowerAdmin(admin.ModelAdmin):\n    filter_horizontal = (\"following_list\", )\nclass UserAdmin(admin.ModelAdmin):\n    filter_horizontal = (\"posts\", )\nadmin.site.register(User, UserAdmin)\nadmin.site.register(Post)\nadmin.site.register(Follower, FollowerAdmin)",
+        "detail": "network.admin",
+        "documentation": {}
+    },
+    {
+        "label": "UserAdmin",
+        "kind": 6,
+        "importPath": "network.admin",
+        "description": "network.admin",
+        "peekOfCode": "class UserAdmin(admin.ModelAdmin):\n    filter_horizontal = (\"posts\", )\nadmin.site.register(User, UserAdmin)\nadmin.site.register(Post)\nadmin.site.register(Follower, FollowerAdmin)",
+        "detail": "network.admin",
+        "documentation": {}
+    },
+    {
+        "label": "NetworkConfig",
+        "kind": 6,
+        "importPath": "network.apps",
+        "description": "network.apps",
+        "peekOfCode": "class NetworkConfig(AppConfig):\n    name = 'network'",
+        "detail": "network.apps",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "network.models",
+        "description": "network.models",
+        "peekOfCode": "class User(AbstractUser):\n    user_id = models.AutoField(primary_key=True, editable=False)\n    posts = models.ManyToManyField('Post', blank=True, related_name = \"liked_posts\")\n    def __str__(self):\n        return f\"{self.username}\"\nclass Post(models.Model):\n    post_id = models.AutoField(primary_key=True, editable=False)\n    likes = models.IntegerField(default=0)\n    creator = models.ForeignKey(User, on_delete=models.CASCADE)\n    timestamp = models.DateTimeField(auto_now_add=django.utils.timezone.now())",
+        "detail": "network.models",
+        "documentation": {}
+    },
+    {
+        "label": "Post",
+        "kind": 6,
+        "importPath": "network.models",
+        "description": "network.models",
+        "peekOfCode": "class Post(models.Model):\n    post_id = models.AutoField(primary_key=True, editable=False)\n    likes = models.IntegerField(default=0)\n    creator = models.ForeignKey(User, on_delete=models.CASCADE)\n    timestamp = models.DateTimeField(auto_now_add=django.utils.timezone.now())\n    content = models.CharField(max_length=500)\n    def __str__(self):\n        return f\"{self.post_id}: {self.content} by {self.creator}\"\nclass Follower(models.Model):\n    id = models.AutoField(primary_key=True, editable=False)",
+        "detail": "network.models",
+        "documentation": {}
+    },
+    {
+        "label": "Follower",
+        "kind": 6,
+        "importPath": "network.models",
+        "description": "network.models",
+        "peekOfCode": "class Follower(models.Model):\n    id = models.AutoField(primary_key=True, editable=False)\n    user = models.ForeignKey(User, on_delete=models.CASCADE)\n    following_list = models.ManyToManyField(User, blank=True, related_name='followers')\n    def __str__(self):\n        all_following = self.following_list.all()\n        return f\"{self.user} follows {all_following}\"",
+        "detail": "network.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "network.urls",
+        "description": "network.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", views.index, name=\"index\"),\n    path(\"login\", views.login_view, name=\"login\"),\n    path(\"logout\", views.logout_view, name=\"logout\"),\n    path(\"register\", views.register, name=\"register\"),\n    path(\"create\", views.create, name=\"create\"),\n    path(\"users/<int:num>\", views.user, name=\"user\"),\n    path(\"following\", views.following, name=\"following\"),\n    # API urls\n    path(\"follow_update/<int:num>\", views.update_followers, name=\"update_followers\"),",
+        "detail": "network.urls",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "network.views",
+        "description": "network.views",
+        "peekOfCode": "def index(request):\n    p = Paginator(Post.objects.all().order_by(\"-timestamp\"), 10)\n    page = request.GET.get('page')\n    posts = p.get_page(page)\n    if request.user in User.objects.all():\n        if not Follower.objects.filter(user = request.user):\n            follower = Follower(user=request.user)\n            follower.save()\n            print(\"ok this is gonna work\")\n        current_user = request.user",
+        "detail": "network.views",
+        "documentation": {}
+    },
+    {
+        "label": "login_view",
+        "kind": 2,
+        "importPath": "network.views",
+        "description": "network.views",
+        "peekOfCode": "def login_view(request):\n    if request.method == \"POST\":\n        # Attempt to sign user in\n        username = request.POST[\"username\"]\n        password = request.POST[\"password\"]\n        user = authenticate(request, username=username, password=password)\n        # Check if authentication successful\n        if user is not None:\n            login(request, user)\n            return HttpResponseRedirect(reverse(\"index\"))",
+        "detail": "network.views",
+        "documentation": {}
+    },
+    {
+        "label": "logout_view",
+        "kind": 2,
+        "importPath": "network.views",
+        "description": "network.views",
+        "peekOfCode": "def logout_view(request):\n    logout(request)\n    return HttpResponseRedirect(reverse(\"index\"))\ndef register(request):\n    if request.method == \"POST\":\n        username = request.POST[\"username\"]\n        email = request.POST[\"email\"]\n        # Ensure password matches confirmation\n        password = request.POST[\"password\"]\n        confirmation = request.POST[\"confirmation\"]",
+        "detail": "network.views",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "network.views",
+        "description": "network.views",
+        "peekOfCode": "def register(request):\n    if request.method == \"POST\":\n        username = request.POST[\"username\"]\n        email = request.POST[\"email\"]\n        # Ensure password matches confirmation\n        password = request.POST[\"password\"]\n        confirmation = request.POST[\"confirmation\"]\n        if password != confirmation:\n            return render(request, \"network/register.html\", {\n                \"message\": \"Passwords must match.\"",
+        "detail": "network.views",
+        "documentation": {}
+    },
+    {
+        "label": "create",
+        "kind": 2,
+        "importPath": "network.views",
+        "description": "network.views",
+        "peekOfCode": "def create(request):\n    if request.method == \"GET\":\n        return render(request, \"network/create.html\")\n    elif request.method == \"POST\":\n        content = request.POST[\"content\"].strip()\n        if content == \"\":\n            return render(request, \"network/create.html\", {\n                \"message\": \"Cannot make an empty quack!\"\n            })\n        creator = request.user",
+        "detail": "network.views",
+        "documentation": {}
+    },
+    {
+        "label": "user",
+        "kind": 2,
+        "importPath": "network.views",
+        "description": "network.views",
+        "peekOfCode": "def user(request, num):\n    profile = User.objects.get(user_id = num)\n    posts = Post.objects.filter(creator=profile)\n    follower_profile = Follower.objects.get(user=profile)\n    following_count = follower_profile.following_list.all().count()\n    follower_count = Follower.objects.filter(following_list=profile).all().count()\n    p = Paginator(posts.order_by(\"-timestamp\"), 10)\n    page = request.GET.get('page')\n    posts = p.get_page(page)\n    current_user = request.user",
+        "detail": "network.views",
+        "documentation": {}
+    },
+    {
+        "label": "following",
+        "kind": 2,
+        "importPath": "network.views",
+        "description": "network.views",
+        "peekOfCode": "def following(request):\n    current_user = request.user\n    liked_posts = current_user.posts.all()\n    current_user_following = Follower.objects.get(user=current_user).following_list.all()\n    posts = Post.objects.none()\n    for user in current_user_following:\n        posts |= Post.objects.filter(creator=user)\n    p = Paginator(posts.order_by(\"-timestamp\"), 10)\n    page = request.GET.get('page')\n    posts = p.get_page(page)",
+        "detail": "network.views",
+        "documentation": {}
+    },
+    {
+        "label": "update_followers",
+        "kind": 2,
+        "importPath": "network.views",
+        "description": "network.views",
+        "peekOfCode": "def update_followers(request, num):\n    current_user = request.user\n    other_user = User.objects.get(user_id=num)\n    current_user_object = Follower.objects.get(user=current_user)\n    if other_user not in current_user_object.following_list.all():\n        current_user_object.following_list.add(other_user)\n    else:\n        current_user_object.following_list.remove(other_user)\n    current_user_object.save()\n    count = Follower.objects.filter(following_list=other_user).all().count()",
+        "detail": "network.views",
+        "documentation": {}
+    },
+    {
+        "label": "like_update",
+        "kind": 2,
+        "importPath": "network.views",
+        "description": "network.views",
+        "peekOfCode": "def like_update(request, num):\n    current_post = Post.objects.get(post_id=num)\n    current_user = request.user\n    current_user_liked_posts = current_user.posts.all()\n    if current_post in current_user_liked_posts:\n        current_post.likes -= 1\n        current_post.save()\n        current_user.posts.remove(current_post)\n        new_action = \"like\"\n    else:",
+        "detail": "network.views",
+        "documentation": {}
+    },
+    {
+        "label": "edit_post",
+        "kind": 2,
+        "importPath": "network.views",
+        "description": "network.views",
+        "peekOfCode": "def edit_post(request, num, text):\n    current_post = Post.objects.get(post_id=num)\n    current_post.content = text\n    current_post.save()\n    return JsonResponse({\"alert\":\"post edited correctly\"}, status=201)",
+        "detail": "network.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "project4.asgi",
+        "description": "project4.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "project4.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "project4.settings",
+        "description": "project4.settings",
+        "peekOfCode": "BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = '13kl@xtukpwe&xj2xoysxe9_6=tf@f8ewxer5n&ifnd46+6$%8'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "project4.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "project4.settings",
+        "description": "project4.settings",
+        "peekOfCode": "SECRET_KEY = '13kl@xtukpwe&xj2xoysxe9_6=tf@f8ewxer5n&ifnd46+6$%8'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'network',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
+        "detail": "project4.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "project4.settings",
+        "description": "project4.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'network',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "detail": "project4.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "project4.settings",
+        "description": "project4.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'network',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "project4.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "project4.settings",
+        "description": "project4.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'network',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n]\nMIDDLEWARE = [",
+        "detail": "project4.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "project4.settings",
+        "description": "project4.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'project4.urls'",
+        "detail": "project4.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "project4.settings",
+        "description": "project4.settings",
+        "peekOfCode": "ROOT_URLCONF = 'project4.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "project4.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "project4.settings",
+        "description": "project4.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "project4.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "project4.settings",
+        "description": "project4.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'project4.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/3.0/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),\n    }\n}\nAUTH_USER_MODEL = \"network.User\"",
+        "detail": "project4.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "project4.settings",
+        "description": "project4.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),\n    }\n}\nAUTH_USER_MODEL = \"network.User\"\n# Password validation\n# https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [",
+        "detail": "project4.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_USER_MODEL",
+        "kind": 5,
+        "importPath": "project4.settings",
+        "description": "project4.settings",
+        "peekOfCode": "AUTH_USER_MODEL = \"network.User\"\n# Password validation\n# https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },",
+        "detail": "project4.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "project4.settings",
+        "description": "project4.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "project4.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "project4.settings",
+        "description": "project4.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'",
+        "detail": "project4.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "project4.settings",
+        "description": "project4.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'",
+        "detail": "project4.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "project4.settings",
+        "description": "project4.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'",
+        "detail": "project4.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_L10N",
+        "kind": 5,
+        "importPath": "project4.settings",
+        "description": "project4.settings",
+        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'",
+        "detail": "project4.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "project4.settings",
+        "description": "project4.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'",
+        "detail": "project4.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "project4.settings",
+        "description": "project4.settings",
+        "peekOfCode": "STATIC_URL = '/static/'",
+        "detail": "project4.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "project4.urls",
+        "description": "project4.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"admin/\", admin.site.urls),\n    path(\"\", include(\"network.urls\")),\n]",
+        "detail": "project4.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "project4.wsgi",
+        "description": "project4.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "project4.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'project4.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"\n        ) from exc",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
